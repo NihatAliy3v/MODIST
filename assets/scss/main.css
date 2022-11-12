@@ -1,1 +1,157 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+.header {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header .container .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .container .navBar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .container .navBar .logo a {
+  display: inline-block;
+  color: #000;
+  font-size: 20px;
+  padding: 5px 0;
+  margin-right: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.header .container .navBar .navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .container .navBar .navList .navItem {
+  position: relative;
+}
+.header .container .navBar .navList .navItem:hover .dropList {
+  display: block;
+}
+.header .container .navBar .navList .navItem .navLink {
+  display: block;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 24px 20px;
+  line-height: 25.2px;
+}
+.header .container .navBar .navList .navItem .navLink i {
+  font-size: 13px;
+}
+.header .container .navBar .navList .navItem .dropList {
+  position: absolute;
+  padding: 8px 0;
+  display: none;
+  -webkit-box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
+          box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
+  background-color: #fff;
+  border-radius: 4px;
+}
+.header .container .navBar .navList .navItem .dropList .dropItem {
+  width: 160px;
+}
+.header .container .navBar .navList .navItem .dropList .dropItem .dropLink {
+  display: block;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 24px;
+  line-height: 25.2px;
+}
+.header .container .navBar .navList .navItem:nth-child(2) {
+  margin-right: 10px;
+}
+.header .container .navBar .navList .navItem:nth-child(2) .navLink i {
+  margin-left: 4px;
+  position: absolute;
+  font-size: 11px;
+  top: 30px;
+}
+
+.sticky-first {
+  top: -100px;
+}
+
+.sticky-second {
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+}
+.sticky-second .container .navBar .navList .navItem:last-child .navLink {
+  background-color: #f1b8c4;
+}
+.sticky-second .container .navBar .navList .navItem .navLink {
+  padding: 14.4px 20px;
+}
+.sticky-second .container .navBar .navList .navItem .active {
+  color: #f1b8c4;
+}
+.sticky-second .container .navBar .navList .navItem:nth-child(2) {
+  margin-right: 10px;
+}
+.sticky-second .container .navBar .navList .navItem:nth-child(2) .navLink i {
+  margin-left: 4px;
+  position: absolute;
+  font-size: 11px;
+  top: 20px;
+}
+.sticky-second .container .navBar .navList .navItem .dropList {
+  margin-top: 4px;
+}/*# sourceMappingURL=main.css.map */
