@@ -123,6 +123,11 @@
   top: 30px;
 }
 
+.header-white {
+  background-color: #fff;
+  top: 0;
+}
+
 .sticky-first {
   top: -100px;
 }
