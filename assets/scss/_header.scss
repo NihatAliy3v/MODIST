@@ -3,7 +3,7 @@
     width: 100%;
     position: absolute;
     top: 20px;
-    transition: all .3s;
+    z-index: 9;
     .container{
         .navBar{
             display: flex;
@@ -80,13 +80,10 @@
     top: 0;
 }
 .sticky-first{
-    top: -100px;
-}
-.sticky-second{
     background-color: white;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
     position: fixed;
-    top: 0;
+    top: -100px;
     .container{
         .navBar{
             .navList{
@@ -94,6 +91,7 @@
                     &:last-child{
                         .navLink{
                             background-color: #f1b8c4;
+                            color: #fff;
                         }
                     }
                     .navLink{
@@ -120,4 +118,10 @@
             }
         }
     }
+}
+.sticky-second{
+    top: 0;
+    position: fixed;
+    transition: top .3s;
+
 }

@@ -1,1 +1,386 @@
-// NIHAD ALIYEV
+// NIHAT ALIYEV
+
+// START CART
+#cart{
+    padding-top: 73px;
+    .cart-bg{
+        background-image: url("../images/bg_6.jpg.webp");
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        .container{
+            .cart-words{
+                padding: 105px 0;
+                .title{
+                    font-weight: 100;
+                    color: #000000;
+                    font-size: 40px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    margin-bottom: 5px;
+                }
+                .page-link{
+                    text-align: center;
+                    line-height: 23.4px;
+                    a{
+                        font-size: 13px;
+                        color: #000;
+                        margin-right: 10px;
+                        letter-spacing: 1px;
+                    }
+                    span{
+                        font-size: 13px;
+                        color: rgba(0, 0, 0, 0.7);
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+// END CART
+
+// START PRODUCT SALE
+#product-sale{
+    padding: 135px 0;
+    .container{
+        .card-list{
+            overflow-x: scroll;
+            padding-bottom: 20px;
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                thead{
+                    tr{
+                        background: rgba(0, 0, 0, 0.03);
+                        display: table-row;
+                        th{
+                            padding: 20px 10px;
+                            text-align: center;
+                            font-size: 15px;
+                            font-weight: 500;
+                        }
+                        th.product{
+                            width: 333px;
+                        }
+                        th.price{
+                            width: 123px;
+                        }
+                        th.quantity{
+                            width: 222px;
+                        }
+                        th.total{
+                            width: 123px;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        td{
+                            padding: 40px 10px;
+                            text-align: center;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+                            
+                            .img{
+                                background-position: center center;
+                                background-size: cover;
+                                width: 100px;
+                                height: 150px;
+                                margin: 0 50px;
+                            }
+                            .img1{
+                                background-image: url("../images/product-3.jpg.webp");
+                            }
+                            .img2{
+                                background-image: url("../images/product-4.jpg.webp");
+                            }
+                            .title{
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                letter-spacing: 2px;
+                                font-weight: 400;
+                                color: #000000;
+                                margin-bottom: 8px;
+                            }
+                            .description{
+                                font-size: 15px;
+                                color: #808080;
+                                margin-bottom: 16px;
+                                line-height: 27px;
+                            }
+                            form{
+                                input{
+                                    height: 54px;
+                                    text-align: center;
+                                    border: 1px solid rgba(0, 0, 0, 0.05);
+                                    color: #000000;
+                                    padding: 0;
+                                    font-size: 14px;
+                                    outline: 0;
+                                }
+                                .btn{
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .x-table{
+                            width: 88px;
+                            a{
+                                border: 1px solid rgba(0, 0, 0, 0.1);
+                                padding: 10px 10px;
+                                color: #000000;
+                                display: inline-block;
+                                line-height: 0;
+                                i{
+                                    font-size: 9px;
+                                }
+                                transition: all .3s;
+                                &:hover{
+                                    background-color: #f1b8c4;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cart-totals{
+            display: flex;
+            justify-content: flex-end;
+            .cart-totals-container{
+                margin-top: 48px;
+                .cart-totals-box{
+                    width: 445px; 
+                    padding: 20px;
+                    margin-bottom: 16px;
+                    border: 1px solid rgba(0, 0, 0, 0.05);
+                    .title{
+                        margin-bottom: 20px;
+                        font-size: 18px;
+                        font-weight: 400;  
+                        letter-spacing: 2px;
+                        line-height: 27px;
+                    }
+                    .result{
+                        display: flex;
+                        margin-bottom: 16px;
+                        span{
+                            display: inline-block;
+                            width: 50%;
+                            line-height: 27px;
+                            color: #808080;
+                            font-size: 15px;
+                        }
+                        &:last-child{
+                            span{
+                                &:last-child{
+                                    color: #000;
+                                }
+                            }  
+                        }
+                    }
+                    hr{
+                        margin: 16px 0;
+                        border: 0;
+                        border-top: 1px solid rgba(0, 0, 0, 0.1);
+                    }
+                }
+                .cart-totals-btn{
+                    .check-out{
+                        display: block;
+                        background-color:#f1b8c4 ;
+                        border: 1px solid #f1b8c4;
+                        color: #fff;
+                        max-width: 445px;
+                        padding: 16px 24px;
+                        border-radius: 30px;
+                        text-align: center;
+                        line-height: 24px;
+                        transition: all .3s;
+                        &:hover{
+                            background-color: #fff;
+                            color: #f1b8c4;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+// END PRODUCT SALE
+
+// START RELATED PRODUCT
+#related-product{
+    padding: 135px 0;
+    background-color: #f8f9fa;
+    .container-fluid{
+        width: 100%;
+        padding: 0 60px;
+        .title{
+            position: relative;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            h3{
+                position: relative;
+                z-index: 1;
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                margin-bottom: 24px;
+                text-align: center;
+            }
+            h2{
+                position: absolute;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                font-size: 150px;
+                color: rgba(0, 0, 0, 0.04);
+                font-weight: 900;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+        }  
+        .products{
+            display: flex;
+            gap: 30px;
+            .product-item{
+                width: 25%;
+                a{
+                    display: block;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        transition: all .3s;
+                    }
+                    &:hover{
+                        img{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+                .description{
+                    padding: 16px;
+                    h3{
+                        line-height: 24px;
+                        margin-bottom: 5px;
+                        .name{
+                            font-size: 16px;
+                            font-weight: 300;
+                            color: #000;
+                        }
+                    }
+                    .pricing-rating{
+                        display: flex;
+                        div{
+                            margin-bottom: 16px;
+                            width: 50%;
+                            line-height: 27px;
+                            font-size: 15px;
+                        }
+                        .rating{
+                           text-align: right;
+                           i{
+                            font-size: 12px;
+                            color: #808080;
+                           }
+                        }
+                    }
+                    hr{
+                        border-top: 1px solid rgba(0, 0, 0, 0.1);
+                        margin: 16px 0;
+                    }
+                    .cart-heart{
+                        display: flex;
+                        a{
+                            display: block;
+                            width: 50%;
+                            color: #000;
+                            line-height: 27px;
+                        }
+                        .add-to{
+                            font-size: 13px;
+                            font-weight: 300;
+                            &:after{
+                                content: "+";
+                                font-weight: 400;
+                                font-size: 14px;
+                                margin-left: 4px;
+                            }
+                        }
+                        .heart{
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+// END RELATED PRODUCT 
+
+
+
+// START SUBSCRIBE
+#subcribe{
+    padding: 135px 0;
+    .container{
+        .title{
+            position: relative;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            h3{
+                position: relative;
+                z-index: 1;
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                margin-bottom: 24px;
+                text-align: center;
+            }
+            h2{
+                position: absolute;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                font-size: 150px;
+                color: rgba(0, 0, 0, 0.04);
+                font-weight: 900;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+        }  
+        form{
+            display: flex;
+            justify-content: center;
+            height: 52px;
+            input{
+                padding: 6px 12px;
+                width: 309px;
+                font-size: 16px;
+                outline: none;
+                border: 1px solid #000;
+                &::placeholder{
+                color: #000;
+
+                }
+            }
+            button{
+                background-color: #000;
+                padding: 1px 16px;
+                color: #fff;
+                width: 102px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+// END SUBSCRIBE

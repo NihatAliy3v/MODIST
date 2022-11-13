@@ -8,7 +8,363 @@
     <title>MODIST</title>
 </head>
 <body>
-    <p>Nihad Aliyev</p>
-    <p>okey</p>
+    <!-- <p>Nihat Aliyev</p> -->
+    <header class="header header-white">
+        <div class="container">
+            <nav class="navBar">
+                <div class="logo">
+                    <a href="./home.html">
+                        MODIST
+                    </a>
+                </div>
+                <ul class="navList"> 
+                    <li class="navItem">
+                        <a class="navLink active" href="./home.html">Home</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLink" href="#">
+                            Shop
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="dropList">
+                            <li class="dropItem">
+                                <a class="dropLink" href="./shop.html">
+                                    Shop
+                                </a>
+                            </li>
+                            <li class="dropItem">
+                                <a class="dropLink" href="./single-product.html">
+                                    Single Product
+                                </a>
+                            </li>
+                            <li class="dropItem">
+                                <a class="dropLink" href="./cart.html">
+                                    Cart
+                                </a>
+                            </li>
+                            <li class="dropItem">
+                                <a class="dropLink" href="./checkout.html">
+                                    Checkout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLink" href="./about.html">About</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLink" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLink" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLink" href="./cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>[0]
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- START CART -->
+        <section id="cart">
+            <div class="cart-bg">
+                <div class="container">
+                    <div class="cart-words">
+                        <h1 class="title">
+                            MY CART
+                        </h1>
+                        <p class="page-link">
+                            <a href="./home.html">
+                                HOME
+                            </a>
+                            <span>CART</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END CART -->
+        
+        <!-- START PRODUCT-SALE -->
+        <section id="product-sale">
+            <div class="container">
+                <div class="card-list">
+                    <table class="card-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th class="product">Product</th>
+                                <th class="price">Price</th>
+                                <th class="quantity">Quantity</th>
+                                <th class="total">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="x-table">
+                                    <a href="#">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <div class="img img1"></div>
+                                </td>
+                                <td>
+                                    <h3 class="title">
+                                        YOUNG WOMAN WEARING DRESS
+                                    </h3>
+                                    <p class="description">
+                                        Far far away, behind the word mountains, far from the countries
+                                    </p>
+                                </td>
+                                <td>
+                                    <span class="body-price1">4.90</span>
+                                </td>
+                                <td>
+                                    <form action="">
+                                        <input class="count1" type="text" value="1" min="1" max="100">
+                                        <button class="btn btn1"></button>
+                                    </form>
+                                </td>
+                                <td class="total-salary1">$4.90</td>
+                            </tr>
+                            <tr>
+                                <td class="x-table">
+                                    <a href="#">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <div class="img img2"></div>
+                                </td>
+                                <td>
+                                    <h3 class="title">
+                                        YOUNG WOMAN WEARING DRESS
+                                    </h3>
+                                    <p class="description">
+                                        Far far away, behind the word mountains, far from the countries
+                                    </p>
+                                </td>
+                                <td>
+                                    <span class="body-price2">15.70</span>
+                                </td>
+                                <td>
+                                    <form action="">
+                                        <input class="count2" type="text" value="1" min="1" max="100">
+                                        <button class="btn btn2"></button>
+                                    </form>
+                                </td>
+                                <td class="total-salary2">$15.70</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="cart-totals">
+                    <div class="cart-totals-container">
+                        <div class="cart-totals-box">
+                            <h3 class="title">
+                                CART TOTALS
+                            </h3>
+                            <p class="result">
+                                <span>Subtotal</span>
+                                <span>$20.60</span>
+                            </p>
+                            <p class="result">
+                                <span>Delivery</span>
+                                <span>$0.00</span>
+                            </p>
+                            <p class="result">
+                                <span>Discount</span>
+                                <span>$3.00</span>
+                            </p>
+                            <hr>
+                            <p class="result">
+                                <span>TOTAL</span>
+                                <span>$17.60</span>
+                            </p>
+
+                        </div>
+                        <div class="cart-totals-btn">
+                            <a class="check-out" href="./checkout.html">
+                                Proceed to Checkout
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END PRODUCT-SALE -->
+
+        <!-- START RELATED PRODUCT -->
+        <section id="related-product">
+            <div class="container-fluid">
+                <div class="title">
+                    <h2>Products</h2>
+                    <h3>RELATED PRODUCTS</h3>
+                </div>
+                <div class="products">
+                    <div class="product-item">
+                        <a href="#">
+                            <img src="./assets/images/product-1.jpg.webp" alt="">
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a class="name" href="#">
+                                    Young Woman Wearing Dress
+                                </a>
+                            </h3>
+                            <div class="pricing-rating">
+                                <div class="pricing">
+                                    <span>$120.00</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="cart-heart">
+                                <a class="add-to" href="./cart.html">
+                                    ADD TO CART
+                                </a>
+                                <a class="heart" href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="">
+                            <img src="./assets/images/product-2.jpg.webp" alt="">
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a class="name" href="#">
+                                    Young Woman Wearing Dress
+                                </a>
+                            </h3>
+                            <div class="pricing-rating">
+                                <div class="pricing">
+                                    <span>$120.00</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="cart-heart">
+                                <a class="add-to" href="./cart.html">
+                                    ADD TO CART
+                                </a>
+                                <a class="heart" href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="#">
+                            <img src="./assets/images/product-3.jpg.webp" alt="">
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a class="name" href="#">
+                                    Young Woman Wearing Dress
+                                </a>
+                            </h3>
+                            <div class="pricing-rating">
+                                <div class="pricing">
+                                    <span>$120.00</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="cart-heart">
+                                <a class="add-to" href="./cart.html">
+                                    ADD TO CART
+                                </a>
+                                <a class="heart" href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="">
+                            <img src="./assets/images/product-4.jpg.webp" alt="#">
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a class="name" href="#">
+                                    Young Woman Wearing Dress
+                                </a>
+                            </h3>
+                            <div class="pricing-rating">
+                                <div class="pricing">
+                                    <span>$120.00</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="cart-heart">
+                                <a class="add-to" href="./cart.html">
+                                    ADD TO CART
+                                </a>
+                                <a class="heart" href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END RELATED PRODUCT -->
+            
+        <!-- START SUBCRIBE -->
+        <section id="subcribe">
+            <div class="container">
+                <div class="title">
+                    <h2>Subscribe</h2>
+                    <h3>SUBCRIBE TO OUR NEWSLETTER</h3>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Enter email adress" required>
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- END SUBCRIBE -->
+
+
+    </main>
+
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/7254eb5e7b.js" crossorigin="anonymous"></script>
 </body>
 </html>
