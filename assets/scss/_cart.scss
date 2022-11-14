@@ -321,10 +321,7 @@
         } 
     }
 }
-
 // END RELATED PRODUCT 
-
-
 
 // START SUBSCRIBE
 #subcribe{
@@ -381,6 +378,111 @@
         }
     }
 }
-
-
 // END SUBSCRIBE
+
+// START FOOTER
+.footer{
+    padding: 112px 0;
+    background-color: #f8f9fa;
+    .container{
+        .footer-links-container{
+            display: flex;
+            justify-content: space-between;
+            .col{
+                width: 25%;
+                h3{
+                    margin-bottom: 20px;
+                    font-size: 13px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                }
+                .social{
+                    a{
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #000;
+                        background-color: #00000005;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        i{
+                            font-size: 26px;
+                        }
+                    }
+                }
+                .list-container{
+                    display: flex;
+                    gap: 24px;
+                    .list{
+                        .list-item{
+                            margin-bottom: 24px;
+                            a{
+                                color: #000;
+                                display: inline-block;
+                                padding: 8px 0;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 25.2px;
+                            }
+                        }
+                    }
+                }
+            }
+            .qusetions{
+                .list-container{
+                    .list{
+                        .list-item{
+                            display: flex;
+                            i{
+                                display: block;
+                                height: 42px;
+                                width: 40px;
+                            }
+                            span{
+                                display: block;
+                                height: 42px;
+                                font-size: 14px;
+                                line-height: 21px;
+                                width: 184px;
+                            }
+                            a{
+                                display: flex;
+                                i{
+                                    display: block;
+                                    height: 42px;
+                                    width: 40px;
+                                }
+                                span{
+                                    display: block;
+                                    height: 42px;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .modist{
+                .title{
+                    margin-bottom: 68px;
+                }
+            }
+
+        }
+        .copyright{
+            padding-top: 48px;
+            margin-top: 48px;
+            p{
+                line-height: 28.8px;
+                text-align: center;
+                margin-bottom: 16px;
+                a{
+                    color: #f1b8c4;
+                }
+            }
+        }
+    }
+}
+// END FOOTER

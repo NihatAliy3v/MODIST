@@ -542,4 +542,110 @@
   color: #fff;
   width: 102px;
   cursor: pointer;
+}
+
+.footer {
+  padding: 112px 0;
+  background-color: #f8f9fa;
+}
+.footer .container .footer-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .container .footer-links-container .col {
+  width: 25%;
+}
+.footer .container .footer-links-container .col h3 {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.footer .container .footer-links-container .col .social a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.0196078431);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.footer .container .footer-links-container .col .social a i {
+  font-size: 26px;
+}
+.footer .container .footer-links-container .col .list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.footer .container .footer-links-container .col .list-container .list .list-item {
+  margin-bottom: 24px;
+}
+.footer .container .footer-links-container .col .list-container .list .list-item a {
+  color: #000;
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+.footer .container .footer-links-container .qusetions .list-container .list .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .container .footer-links-container .qusetions .list-container .list .list-item i {
+  display: block;
+  height: 42px;
+  width: 40px;
+}
+.footer .container .footer-links-container .qusetions .list-container .list .list-item span {
+  display: block;
+  height: 42px;
+  font-size: 14px;
+  line-height: 21px;
+  width: 184px;
+}
+.footer .container .footer-links-container .qusetions .list-container .list .list-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .container .footer-links-container .qusetions .list-container .list .list-item a i {
+  display: block;
+  height: 42px;
+  width: 40px;
+}
+.footer .container .footer-links-container .qusetions .list-container .list .list-item a span {
+  display: block;
+  height: 42px;
+  font-size: 14px;
+}
+.footer .container .footer-links-container .modist .title {
+  margin-bottom: 68px;
+}
+.footer .container .copyright {
+  padding-top: 48px;
+  margin-top: 48px;
+}
+.footer .container .copyright p {
+  line-height: 28.8px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.footer .container .copyright p a {
+  color: #f1b8c4;
 }/*# sourceMappingURL=main.css.map */
